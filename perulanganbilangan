@@ -1,0 +1,34 @@
+import java.util.*;
+import java.lang.Math;
+
+public class perulanganbilangan {
+    public static void main(String[] args) {
+        int a;
+        int b;
+        int c;
+        int d;
+        int n;
+        
+        a = 1;
+        n = 5;
+        while (a <= n) {
+            b = 1;
+            while (b <= a) {
+                System.out.print(b+" ");
+                b++;
+            }
+            System.out.println();
+            a++;
+        }
+        c = n - 1;
+        while (c >= 1) {
+            d = 1;
+            while (d <= c) {
+                System.out.print(d+" ");
+                d++;
+            }
+            System.out.println();
+            c--;
+        }
+    }
+}
