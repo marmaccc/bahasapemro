@@ -46,6 +46,7 @@ public class menumakanan {
 				banyakpesan[i] = sc.nextInt();
 				total[i] = h_special * banyakpesan[i];
 				System.out.println();
+				break;
 				
 			default:
 				menu = 0;
